@@ -1,0 +1,25 @@
+﻿/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+	Front-end Developer:	Leandro Costa
+	Site:			http://leandroacosta.net.br
+	Contact:		leandroacosta2008 [at] gmail.com
+	Location:		São Paulo, São Paulo, Brazil
+
+/* THANKS */
+	Layouts of some jobs: Agência Gr8!
+	Site: http://agenciagr8.com
+	From: São Paulo, Sao Paulo, Brazil
+
+	Participation in the idea of ​​the layout: Rodrigo Mendes
+	Site: http://mendesign.dunked.com/
+	From: São Paulo, Sao Paulo, Brazil
+
+/* SITE */
+	Last update:		2014/03/01
+	Language:		Portuguese / English
+	Doctype:		HTML5
+	Software:		Photoshop, Sublime Text, Filezilla
+	Standards:		HTML5, CSS3
+	Components:		jQuery

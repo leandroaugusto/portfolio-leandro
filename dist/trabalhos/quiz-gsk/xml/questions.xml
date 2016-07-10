@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quiz>
+	<questions>
+		<image src="upload/explanation-1.jpg"></image>
+		<question>1) O que é o Clavulin® ES?</question>
+		<answer check="1">a) Clavulin® ES é um antibiótico de amplo espectro, composto por 800mg de amoxicilina e 42,9mg de ácido clavulânico.*</answer>
+		<answer check="0">b) Clavulin® ES é um antibiótico de amplo espectro, composto por 400mg de amoxicilina e 57mg de ácido clavulânico.</answer>
+		<answer check="0">c) Clavulin® ES é um antibiótico de amplo espectro, composto por 600mg de amoxicilina e 42,9mg de ácido clavulânico.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-1.jpg"></image>
+		<question>2) O que significa a sigla ES?</question>
+		<answer check="0">a) ES significa Especial.</answer>
+		<answer check="0">b) ES significa Extra Strength, ou seja, Força Extra.</answer>
+		<answer check="1">c) ES significa Efeito Superior.*</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-1.jpg"></image>
+		<question>3) Clavulin® ES é indicado para crianças a partir de qual idade?</question>
+		<answer check="0">a) A partir de 3 meses de idade.</answer>
+		<answer check="1">b) A partir de 6 meses de idade.*</answer>
+		<answer check="0">c) A partir de 18 meses de idade.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-1.jpg"></image>
+		<question>4) Clavulin® ES pode ser trocado na farmácia por outras apresentações de amoxicilina com clavulanato?</question>
+		<answer check="0">a) Clavulin® ES possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato, por isso pode ser trocado por qualquer outra suspensão de amoxicilina com clavulanato.</answer>
+		<answer check="1">b) Clavulin® ES não possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato. Portanto, Clavulin® ES não deve ser substituído por outras suspensões orais de amoxicilina com clavulanato, por não serem intercambiáveis.*</answer>
+		<answer check="0">c) Clavulin® ES não possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato. Apesar dessa diferença, Clavulin® ES pode ser trocado por qualquer outra suspensão de amoxicilina com clavulanato.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-1.jpg"></image>
+		<question>5) O que é dose dobrada?</question>
+		<answer check="1">a) A dose dobrada é o dobro da dose padrão recomendada de amoxicilina (45 mg/kg/dia), ou seja, 90 mg/kg/dia.*</answer>
+		<answer check="0">b) A dose dobrada é o dobro da dose padrão recomendada de amoxicilina (25 mg/kg/dia), ou seja, 50 mg/kg/dia.</answer>
+		<answer check="0">c) Por conta do Clavulin BD ter concentração de 400mg de amoxicilina, o Clavulin ES tem dose dobrada devido à sua concentração de 800mg.</answer>
+	</questions>
+</quiz>

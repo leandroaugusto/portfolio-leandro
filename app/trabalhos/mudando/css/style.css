@@ -1,0 +1,493 @@
+/* CSS Reset */
+	* { margin: 0; padding: 0; list-style: none; vertical-align: baseline; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: none; outline: none; text-decoration: none; }
+	html { -webkit-tap-highlight-color: rgba(201, 224, 253, 0.8); }
+
+/* Animations */
+	/* Menino sprite */
+	@-webkit-keyframes garoto {
+		from { background-position: 0px 0px; }
+		to { background-position: -5074px 0px; }
+	}
+	@-moz-keyframes garoto {
+		from { background-position: 0px 0px; }
+		to { background-position: -5074px 0px; }
+	}
+	@-ms-keyframes garoto {
+		from { background-position: 0px 0px; }
+		to { background-position: -5074px 0px; }
+	}
+	@-o-keyframes garoto {
+		from { background-position: 0px 0px; }
+		to { background-position: -5074px 0px; }
+	}
+
+	/* teclado explicação */
+	@-webkit-keyframes teclado {
+		from { background-position: -238px -449px; }
+		to { background-position: -366px -449px; }
+	}
+	@-moz-keyframes teclado {
+		from { background-position: -238px -449px; }
+		to { background-position: -366px -449px; }
+	}
+	@-ms-keyframes teclado {
+		from { background-position: -238px -449px; }
+		to { background-position: -366px -449px; }
+	}
+	@-o-keyframes teclado {
+		from { background-position: -238px -449px; }
+		to { background-position: -366px -449px; }
+	}
+
+	/* pés explicação */
+	@-webkit-keyframes pes {
+		from { background-position: -238px -499px; }
+		to { background-position: -370px -499px }
+	}
+	@-moz-keyframes pes {
+		from { background-position: 0px -48px; }
+		to { background-position: -370px -499px; }
+	}
+	@-ms-keyframes pes {
+		from { background-position: 0px -48px; }
+		to { background-position: -370px -499px; }
+	}
+	@-o-keyframes pes {
+		from { background-position: 0px -48px; }
+		to { background-position: -370px -499px; }
+	}
+
+	/* pessoas */
+	@-webkit-keyframes pessoas {
+		from { width: 0px; }
+		to { width: 161px; }
+	}
+	@-moz-keyframes pessoas {
+		from { width: 0px; }
+		to { width: 161px; }
+	}
+	@-ms-keyframes pessoas {
+		from { width: 0px; }
+		to { width: 161px; }
+	}
+	@-o-keyframes pessoas {
+		from { width: 0px; }
+		to { width: 161px; }
+	}
+
+	/* Luzes final */
+	@-webkit-keyframes luzEnd {
+		from { background-position: 2px 0; }
+		to { background-position: -44px 0; }
+	}
+	@-moz-keyframes luzEnd {
+		from { background-position: 2px 0; }
+		to { background-position: -44px 0; }
+	}
+	@-ms-keyframes luzEnd {
+		from { background-position: 2px 0; }
+		to { background-position: -44px 0; }
+	}
+	@-o-keyframes luzEnd {
+		from { background-position: 2px 0; }
+		to { background-position: -44px 0; }
+	}
+
+/* Font-face */
+	@font-face {
+		font-family: "frutiger-bold";
+		src: url("../fonts/FrutigerLTStd-Bold.eot"); /*somente para o IE*/
+		src: local("frutiger"),
+			url("../fonts/FrutigerLTStd-Bold.woff") format("woff"),
+			url("../fonts/FrutigerLTStd-Bold.otf") format("opentype"),
+			url("../fonts/FrutigerLTStd-Bold.ttf") format("truetype");
+			font-weight: normal;
+    		font-style: normal;
+	}
+	@font-face {
+		font-family: "frutiger-roman";
+		src: url("../fonts/FrutigerLTStd-Roman.eot"); /*somente para o IE*/
+		src: local("frutiger"),
+			url("../fonts/FrutigerLTStd-Roman.woff") format("woff"),
+			url("../fonts/FrutigerLTStd-Roman.otf") format("opentype"),
+			url("../fonts/FrutigerLTStd-Roman.ttf") format("truetype");
+			font-weight: normal;
+    		font-style: normal;
+	}
+
+/* Classes universais */
+	body {
+		font-family: "frutiger-roman", verdana;
+	}
+	.azul {
+		color: #608ec5;
+	}
+	.vermelho {
+		color: #c32c3e;
+	}
+	.cinza {
+		color: #5c5c5c;
+	}
+	.block {
+		display: block;
+	}
+	.sprite {
+		background: url(../img/sprite.png) no-repeat;
+	}
+
+/* Conteudo Geral */
+	#wrapper-campanha {
+		width: 960px;
+		height: 992px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -480px;
+
+		background: #fafafa; /* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmYWZhZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGNkY2RjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-radial-gradient(center, ellipse cover,  #fafafa 0%, #dcdcdc 300%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 300%, color-stop(0%,#fafafa), color-stop(300%,#dcdcdc)); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  #fafafa 0%,#dcdcdc 300%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  #fafafa 0%,#dcdcdc 300%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  #fafafa 0%,#dcdcdc 300%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  #fafafa 0%,#dcdcdc 300%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#dcdcdc',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+	}
+	#wrapper-campanha h2 {
+		font-family: "frutiger-bold", verdana;
+		font-size: 60px;
+		text-transform: uppercase;
+		color: #5c5c5c;
+		text-align: center;
+		margin-top: 50px;
+	}
+	#wrapper-campanha h3 {
+		font-size: 30px;
+		color: #608ec5;
+		text-align: center;
+	}
+
+/* Etapas */
+	.etapas {
+		width: 386px;
+		height: 386px;
+		position: absolute;
+		z-index: 10;
+		top: 50%;
+		left: 50%;
+		margin-left: -192px;
+		margin-top: -155px;
+		text-align: center;
+		background-color: rgba(555,555,555,0.9);
+		font-weight: normal;
+		font-size: 14px;
+		border-radius: 210px;
+		line-height: 18px;
+		/*border: 1px solid black;*/
+	}
+	.etapas-alinhar {
+		display: table;
+		height: 400px;
+		/*overflow: hidden;*/
+		margin: 0 auto;
+		width: 300px;
+	}
+	.etapas-alinhar .etapas-vertical {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.etapas h4 {
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 8px;
+	}
+	.etapas h4 span {
+		position: relative;
+		top: -7px;
+		font-size: 12px;
+	}
+	.bt-etapas, .bt-etapas-quiz {
+		width: 249px;
+		height: 38px;
+		font-size: 18px;
+		text-transform: uppercase;
+		left: 24px;
+		top: 10px;
+		cursor: pointer;
+		position: relative;
+		line-height: 40px;
+		margin-bottom: 10px;
+	}
+	.bt-etapas, .bt-etapas-quiz.escolha {
+		background-position: -487px -355px;
+		color: #fff;
+	}
+	.bt-etapas-quiz {
+		background-position: -487px -403px;
+		color: #5c5c5c;
+	}
+
+/* Etapa 2 - alimentos */
+	.draggable-food {
+		position: absolute;
+		z-index: 200 !important;
+	}
+	.diferente {
+		float: left;
+		margin-left: 10px;
+	}
+	.diferente span {
+		display: block;
+	}
+
+/* Etapa 3 - corrida */
+	.explica {
+		float: left;
+	}
+	.key-exp {
+		width: 56px;
+		height: 40px;
+		margin-left: 120px;
+		-webkit-animation: teclado .9s steps(2) infinite;
+		-moz-animation: teclado .9s steps(2) infinite;
+		-ms-animation: teclado .9s steps(2) infinite;
+		-o-animation: teclado 1s steps(2) infinite;
+	}
+	.feet-exp {
+		width: 56px;
+		height: 42px;
+		margin-left: 120px;
+		-webkit-animation: pes 1.4s steps(2) infinite;
+		-moz-animation: pes 1.4s steps(2) infinite;
+		-ms-animation: pes 1.4s steps(2) infinite;
+		-o-animation: pes 1.4s steps(2) infinite;
+	}
+	.beneficios {
+		background: url(../img/sprite-lights.png) -45px 0 no-repeat;
+		width: auto;
+		height: auto;
+		text-align: left;
+		padding-left: 18px;
+		margin-bottom: 8px;
+	}
+
+/* Etapa 4 - tipos de diabetes */
+	.etapas h5 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.etapas h5 span {
+		font-size: 30px;
+	}
+	.etapas h5 sup {
+		position: relative;
+		top: -13px;
+		font-size: 14px;
+	}
+	.pessoas {
+		width: 291px;
+		height: 68px;
+		position: absolute;
+	}
+	.pessoas.vazio {
+		background-position: -166px -285px;
+	}
+	.pessoas.cheio {
+		width: 161px;
+		background-position: -166px -364px;
+		-webkit-animation: pessoas 2s;
+		-moz-animation: pessoas 2s;
+		-ms-animation: pessoas 2s;
+		-o-animation: pessoas 2s;
+	}
+	p sup {
+		position: relative;
+		top: -6px;
+		font-size: 8px;
+	}
+	.draggable-people {
+		position: absolute;
+		z-index: 200 !important;
+	}
+	#droppable-people p {
+		position: absolute;
+	}
+
+/* Restart */
+	.diferente-b {
+		position: absolute;
+		left: 60px;
+		top: 90px;
+		width: 315px;
+	}
+	.etapas h6 {
+		font-size: 18px;
+		text-align: left;
+		line-height: 25px;
+		margin-left: 125px;
+	}
+	.restart {
+		background-position: -1047px -372px;
+		width: 60px;
+		height: 20px;
+		position: absolute;
+		cursor: pointer;
+		top: 110px;
+		left: 165px;
+		text-transform: uppercase;
+		padding-top: 50px;
+	}
+	#menino-final {
+		background-position: 22px -282px;
+		width: 180px;
+		height: 273px;
+		position: absolute;
+		top: 45px;
+		left: 14px;
+	}
+	.fb-share-button {
+		width: 95px;
+		height: 18px;
+		position: absolute;
+		top: 190px;
+		left: 147px;
+	}
+
+/* Canvas */
+	#circle {
+		position: absolute;
+		width: 550px;
+		height: 550px;
+		top: 50%;
+		left: 50%;
+		margin-left: -278px;
+		margin-top: -235px;
+		overflow: hidden;
+		border-radius: 285px;
+		padding-right: 4px;
+	}
+	canvas {
+		position: absolute;
+	}
+	#menino {
+		background-position: 22px -282px;
+		width: 180px;
+		height: 273px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -138px;
+		margin-left: -96px;
+	}
+	#menino.garoto {
+		background-repeat: repeat-x;
+		-webkit-animation: garoto 2.2s steps(28) infinite;
+		-moz-animation: garoto 2.2s steps(28) infinite;
+		-ms-animation: garoto 2.2s steps(28) infinite;
+		-o-animation: garoto 2.2s steps(28) infinite;
+	}
+
+/* Pés para ipad */
+	.feets {
+		position: absolute;
+		top: 680px;
+		right: 70px;
+		width: 162px;
+		height: 195px;
+		overflow: hidden;
+		z-index: 10;
+	}
+	.feets p {
+		background-position: -1000px -445px;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 25px;
+		height: 116px;
+		margin-left: 7px;
+	}
+	.feets div {
+		background-repeat: no-repeat;
+		width: 52px;
+		height: 105px;
+		float: left;
+		position: relative;
+		top: -56px;
+	}
+	.feet-left {
+		background-position: -826px -353px;
+	}
+	.feet-left.move {
+		background-position: -766px -353px;
+	}
+	.feet-right {
+		background-position: -952px -353px;
+	}
+	.feet-right.move {
+		background-position: -890px -353px;
+	}
+
+/* Luzes etapas */
+	ul {
+		position: absolute;
+		width: 620px;
+		height: 620px;
+		top: 50%;
+		left: 50%;
+		margin-top: -270px;
+		margin-left: -310px;
+	}
+	ul li {
+		background-image: url(../img/sprite-lights.png);
+		background-repeat: no-repeat;
+		background-position: -23px 0;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		display: block;
+		text-indent: -9999px;
+	}
+	ul li.light {
+		background-position: 2px 0;
+	}
+	ul li.luzFim {
+		-webkit-animation: luzEnd .8s steps(2) 4;
+		-moz-animation: luzEnd .8s steps(2) 4;
+		-ms-animation: luzEnd .8s steps(2) 4;
+		-o-animation: luzEnd .8s steps(2) 4;
+	}
+	li.bullet-top {
+		top: 0;
+		left: 50%;
+	}
+	li.bullet-right {
+		top: 50%;
+		right: 0;
+	}
+	li.bullet-bottom {
+		bottom: 0;
+		left: 50%;
+	}
+	li.bullet-left {
+		top: 50%;
+		left: 0;
+	}
+
+/* Logos */
+	#logos {
+		position: absolute;
+		top: 900px;
+		left: 50px;
+		width: 860px;
+	}
+	#logos p {
+		font-size: 12px;
+		float: left;
+		margin-left: 60px;
+		margin-top: 30px;
+		width: 460px;
+		text-align: center;
+	}

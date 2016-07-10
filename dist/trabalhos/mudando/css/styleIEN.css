@@ -1,0 +1,25 @@
+/* Conteudo Geral */
+	#wrapper-campanha {
+		background: #fafafa !important;
+	}
+	#wrapper-campanha.gradient { filter: none; }
+
+/* Etapa 3 - corrida */
+	.key-exp {
+		background: url(../img/ie/teclado.png) 0 0 no-repeat !important;
+	}
+
+/* Etapa 4 - tipos de diabetes */
+	.etapas[data-step='11'] p {
+		width: 315px !important;
+	}
+
+/* Restart */
+	.diferente-b {
+		left: 46px !important;
+		width: 328px !important;
+	}
+	#menino-final {
+		left: 6px !important;
+	}
+

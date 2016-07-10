@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz - GSK</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- Capa -->
+		<div class="step" id="cover">
+			<button id="start"></button>
+		</div>
+
+		<!-- Questions -->
+		<div class="step" id="bg-quiz" style="display:none">
+			<div id="scroller">
+				<img id="explanation" src="" width="1024" height="768">
+				<div id="bg-quiz-questions">
+					<span id="number"></span>
+					<span id="timer"></span>
+					<div id="quiz" class="q1">
+						<p id="question"></p>
+						<ul id="answers">
+							<li check=""><p></p></li>
+							<li check=""><p></p></li>
+							<li check=""><p></p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Acertou! -->
+		<div class="step" id="hit" style="display:none"></div>
+
+		<!-- Errou! -->
+		<div class="step" id="error" style="display:none">
+			<span id="countdown"></span>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/loadxmldoc.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# NPM
+node_modules/
+logs
+*.log
+npm-debug.log*
+
+# OSX
+Thumbs.db
+.Trashes
+*.DS_Store

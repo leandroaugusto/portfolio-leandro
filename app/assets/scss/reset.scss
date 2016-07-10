@@ -1,0 +1,53 @@
+/*********************** RESET ***********************/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #222b34;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+}
+img {
+    display: block;
+}
+.button, input[type="submit"] {
+    font-size: 2em;
+    color: white;
+    background-color: #222b34;
+    padding: 8px 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.button:hover, input[type="submit"]:hover {
+    background-color: #4e79a5;
+}
+body {
+    font-size: 62.5%;
+    color: #222b34;
+    overflow-x: hidden;
+}
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+}
+.left {
+    float: left;
+}
+#menu, section h2, #skills h3, #more-contacts {
+    font-family: "corbel-bold", tahoma, arial;
+}
+body, input, textarea, #more-contacts span {
+    font-family: "corbel", tahoma, arial;
+}

@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+@font-face {
+	font-family: "amatic";
+	src: url("../font/AmaticSC-Bold.woff") format("woff"),
+		url("../font/AmaticSC-Bold.otf") format("opentype"),
+		url("../font/AmaticSC-Bold.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+}
+#wrapper {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -512px;
+	margin-top: -384px;
+	overflow: hidden;
+}
+.step {
+	width: 1024px;
+	height: 768px;
+	float: left;
+}
+#cover {
+	background: url(../img/bg-cover.jpg) 0 0 no-repeat;
+}
+button {
+	background: url(../img/bt-start.png) 0 0 no-repeat;
+	width: 426px;
+	height: 141px;
+	position: absolute;
+	top: 236px;
+	right: 105px;
+	cursor: pointer;
+}
+#bg-quiz {
+	background-color: #c2ded6;
+	overflow-x: hidden;
+	position: absolute;
+	width: 1024px;
+	height: 100%;
+}
+#scroller {
+	top: 0;
+	position: absolute;
+	-webkit-transition: 1s;
+}
+#bg-quiz-questions {
+	float: left;
+	width: 1024px;
+	height: 768px;
+	background: url(../img/bg-questions.jpg) 0 0 no-repeat;
+}
+#number {
+	font-family: "amatic";
+	font-size: 48px;
+	color: #fff;
+	margin-left: 413px;
+	margin-top: 46px;
+	float: left;
+	letter-spacing: 1px;
+	text-shadow: 2px 0px 4px #966e28;
+	-webkit-transform: rotate(-2deg);
+}
+#explanation {
+	display: block;
+	margin: 0 auto;
+	/*margin-top: 100px;
+	margin-bottom: 100px;*/
+}
+#quiz {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 0 50px;
+}
+#question {
+	font-size: 21px;
+	color: #006247;
+}
+#question, #answers {
+	font-family: "baskerville";
+	text-align: center;
+	font-weight: 600;
+}
+#answers {
+	list-style: none;
+	margin-top: 60px;
+}
+#answers li {
+	background: url(../img/sprite-answers.png) no-repeat;
+	width: 815px;
+	height: 87px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	color: #fff;
+	padding: 0 58px;
+	display: table;
+}
+#answers li p {
+	display: table-cell;
+	vertical-align: middle;
+}
+#hit {
+	background: url(../img/bg-hit.jpg) 0 0 no-repeat;
+}
+#error {
+	background: url(../img/bg-error.jpg) 0 0 no-repeat;
+}
+#countdown {
+	background: url(../img/sprite-countdown.png) no-repeat;
+	width: 80px;
+	height: 100px;
+	position: absolute;
+	right: 150px;
+	bottom: 186px;
+}

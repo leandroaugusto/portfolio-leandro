@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Campanha da Novo Nordisk para o dia mundial do diabetes">
+	<meta name="keywords" content="diabetes, novonordisk, alimentos, exercícios, glicemia, novembro">
+	<meta name="author" content="Leandro Costa - Gr8!">
+	<meta property="og:title" content="Dia mundial do diabetes" /> 
+	<meta property="og:description" content="Campanha da Novo Nordisk para o dia mundial do diabetes" />
+	<meta property="og:image" content="http://novonordisk.com.br/images/apis_logo_v1.gif" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=0.8, maximum-scale=0.8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Dia Mundial do Diabetes</title>
+	<!--[if lte IE 8]> <link rel="stylesheet" type="text/css" href="css/styleIE.css"> <![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=117499271723795";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="wrapper-campanha">
+		<h2>mudando o <span class="azul">diabetes</span></h2>
+		<h3>14 de novembro <span class="cinza">- Dia mundial do</span> diabetes</h3>
+		
+		<!-- Canvas e menino -->
+			<div id="circle">
+				<div id="canvasIE">
+					<img src="img/ie/border90.png" rel="0" style="display:none; top:0; right:0">
+					<img src="img/ie/border180.png" rel="1" style="display:none; top:0; right:0">
+					<img src="img/ie/border270.png" rel="2" style="display:none; top:0; left:0">
+					<img src="img/ie/border360.png" rel="3" style="display:none; top:0; left:0">
+				</div>
+				<canvas id="myCanvas" width="600" height="600" style="z-index:2"></canvas>
+				<canvas id="bgCanvas" width="600" height="600" style="z-index:1"></canvas>
+				<div id="menino" class="sprite"></div>
+			</div>
+
+		<!-- Etapas -->
+			<!-- Etapa 1 - quiz -->
+				<div class="etapas steps" data-step="0" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">você sabia?</h4>
+							<p>Ter uma rotina saudável é um excelente método para melhorar a qualidade de vida e reduzir o risco de desenvolver diabetes.<span class="azul block">Confira algumas dicas e faça parte desse círculo de mudança!</span></p>
+							<div data-bt="1" class="bt-etapas sprite">começar</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="etapas steps" data-step="1" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">qual o nível de glicemia ideal em jejum?<span>1</span></h4>
+							<div data-quiz="1" class="bt-etapas-quiz sprite">até 100 mg/dl</div>
+							<div data-quiz="0" class="bt-etapas-quiz sprite">entre 100 a 125 mg/dl</div>
+							<div data-quiz="0" class="bt-etapas-quiz sprite">entre 140 a 200 mg/dl</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="etapas steps" data-step="2" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="vermelho">resposta errada</h4>
+							<p>O nível de glicemia ideal em jejum<br>é de <span class="azul">até 100 mg/dl</span></p>
+							<div class="bt-etapas sprite resposta">prosseguir</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="etapas steps" data-step="3" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">parabéns!</h4>
+							<p>O nível de glicemia ideal em jejum<br>é de <span class="azul">até 100 mg/dl</span></p>
+							<div class="bt-etapas sprite resposta">prosseguir</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Etapa 2 - alimentos -->
+				<div class="etapas steps" data-step="4" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">você tem se<br>alimentado bem?</h4>
+							<p>Frutas, legumes e verduras são ótimos para sua saúde. Arraste os alimentos para dentro do círculo azul para obter uma alimentação saudável.</p>
+							<div data-bt="5" class="bt-etapas sprite">vamos lá</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="steps" data-step="5" style="display:none">
+					<div id="droppable-food" class="etapas" style="background-color:rgba(555,555,555,0)"></div>
+					<img class="draggable-food" style="top:246px; left:136px" src="img/alimentos/melancia.png">
+					<img class="draggable-food" style="top:424px; left:50px" src="img/alimentos/cenoura.png">
+					<img class="draggable-food" style="top:589px; left:68px" src="img/alimentos/uva.png">
+					<img class="draggable-food" style="top:784px; left:115px" src="img/alimentos/pao.png">
+					<img class="draggable-food" style="top:241px; right:163px" src="img/alimentos/morango.png">
+					<img class="draggable-food" style="top:425px; right:61px" src="img/alimentos/sushi.png">
+					<img class="draggable-food" style="top:593px; right:68px" src="img/alimentos/laranja.png">
+					<img class="draggable-food" style="top:769px; right:126px" src="img/alimentos/salada.png">
+				</div>
+
+				<div class="etapas steps" data-step="6" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<p>Uma alimentação equilibrada é aquela que contém todos os nutrientes – carboidratos, proteínas, gorduras, sais minerais, vitaminas, fibras vegetais e água.</p>
+							<span class="azul" style="font-size:16px; line-height:40px;">Recomendações:</span>
+							<div style="width:auto;height:40px;">
+								<div class="diferente" style="margin-left:-10px">Carboidratos<span>45% - 60% VET</span></div>
+								<div class="diferente">Proteínas<span>15% - 20% VET</span></div>
+								<div class="diferente">Gorduras<span>Até 30% VET</span></div>
+							</div>
+							<div data-bt="7" class="bt-etapas sprite">próximo passo</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Etapa 3 - corrida -->
+				<div class="etapas steps" data-step="7" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">Você tem praticado exercícios físicos?</h4>
+							<p>O ideal é acumular 30 minutos diários de exercício, mesmo que sejam 3 períodos de 10 minutos ou 150 minutos por semana. <span class="pc">Utilizando as setinhas direcionais do teclado, caminhe até completar a meta diária.</span><span class="tablet" style="display:none">Clicando nos pés, caminhe até completar a meta diária.</span></p>
+							<div style="width:56px;height:44px;margin-top:8px">
+								<div class="key-exp explica sprite"></div>
+								<div class="feet-exp explica sprite" style="display:none"></div>
+							</div>
+							<div class="bt-etapas sprite correr">vamos lá</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pés para ação no ipad -->
+				<div class="feets" style="display:none">
+					<p class="sprite">Caminhe<br>usando o teclado ou tocando nos pés</p>
+					<div class="feet-left sprite" style="margin-right:40px"></div>
+					<div class="feet-right sprite"></div>
+				</div>
+
+				<div class="etapas steps" data-step="8" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">parabéns!</h4>
+							<p style="margin-bottom:5px">A pratica de exercícios físicos é muito importante para:</p>
+							<p class="beneficios">Melhorar o controle do diabetes, da hipertensão e do colesterol e, dessa forma pode diminuir o risco de infarto e derrame</p>
+							<p class="beneficios">Melhora do bem-estar e da autoestima</p>
+							<p class="beneficios">Controle do estresse</p>
+							<div data-bt="9" class="bt-etapas sprite">próximo passo</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Etapa 4 - tipos de diabetes -->
+				<div class="etapas steps" data-step="9" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h5 class="cinza">O Brasil tem hoje a<br><span class="azul">4<sup>a</sup> maior</span> população de pessoas com <span class="azul">diabetes</span><sup>1</sup></h5>
+							<div data-bt="10" class="bt-etapas sprite">prosseguir</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="etapas steps" data-step="10" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<p style="font-size:18px;margin-bottom:15px">E das pessoas que tem diabetes...</p>
+							<div style="position:relative;height:70px">
+								<div class="pessoas sprite vazio"></div>
+								<div class="pessoas sprite cheio"></div>
+							</div>
+							<p class="vermelho" style="font-size:18px;margin-bottom:16px;margin-top:20px">54% nunca foram alertadas<br>do risco de desenvolver a doença<sup>2</sup></p>
+							<div data-bt="11" class="bt-etapas sprite">prosseguir</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="etapas steps" data-step="11" style="display:none">
+					<div class="etapas-alinhar">
+						<div class="etapas-vertical">
+							<h4 class="azul">Atento as informações que você acabou de ler...</h4>
+							<p>Arraste para dentro do círculos os principais fatores de risco para o desenvolvimento do Diabetes Mellitus tipo 2</p>
+							<div data-bt="12" class="bt-etapas sprite">vamos lá</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="steps" data-step="12" style="display:none">
+					<div id="droppable-people" class="etapas" style="background-color:rgba(555,555,555,0)">
+						<p class="cinza" rel="2" style="top:140px;left:40px">Sedentarismo</p>
+						<p class="cinza" rel="3" style="top:200px;left:50px">Diabetes<span class="block">gestacional</span></p>
+						<p class="cinza" rel="0" style="top:140px;right:40px">Obesidade</p>
+						<p class="cinza" rel="1" style="top:200px;right:30px">História familiar<span class="block">de diabetes</span></p>
+					</div>
+					<img class="draggable-people" rel="0" style="top:243px; left:50px" src="img/pessoas/balanca.png">
+					<img class="draggable-people" rel="1" style="top:713px; left:50px" src="img/pessoas/familia.png">
+					<img class="draggable-people" rel="2" style="top:243px; right:50px" src="img/pessoas/banco.png">
+					<img class="draggable-people" rel="3" style="top:713px; right:50px" src="img/pessoas/gravida.png">
+				</div>
+
+			<!-- Etapa 5 - final -->
+				<div class="etapas steps" data-step="13" style="background-color:rgba(555,555,555,1); display:none">
+					<div id="menino-final" class="sprite"></div>
+					<div class="diferente-b">
+						<h6 class="cinza"><span class="azul">Parabéns</span>, você completou o círculo da mudança.<br><span class="azul">Espalhe essa ideia!</span></h6>
+						<div data-bt="0" class="restart sprite cinza">repetir</div>
+						<div class="fb-share-button" data-href="http://mudandodiabetes.com.br/index.php/campanha/" data-width="100" data-type="button"></div>
+					</div>
+				</div>
+		
+		<!-- Luzes laterais -->
+			<ul class="bullets">
+				<li class="bullet-top">1</li>
+				<li class="bullet-right">2</li>
+				<li class="bullet-bottom">3</li>
+				<li class="bullet-left">4</li>
+			</ul>
+
+		<!-- Logos -->
+			<div id="logos">
+				<img src="img/logo-mudando.png" style="float:left; margin-top:14px">
+				<p class="fonte-1" style="display:none">Fonte: 1. American Diabetes Association. Diagnosis and classification of diabetes mellitus. Diabetes Care. 2010: 33(supplement 1): S62-S69.</p>
+				<p class="fonte-2" style="display:none">1. International Diabetes Federation. IDF Diabetes Atlas Poster, 5th ed. Brussels, Belgium: International Diabetes Federation, 2012.</p>
+				<p class="fonte-3" style="display:none">2. Pesquisa Conhecimento do Diabetes (Diabetes Awareness Survey) realizada pelo instituto Ipsos em parceria com a Novo Nordisk, em seis países na América Latina: Brasil, Argentina, México, Chile, Colômbia e Peru. (junho - julho 2012)</p>
+				<img src="img/logo-novo.png" style="float:right">
+			</div>
+	</div>
+	
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery-touch.min.js"></script>
+	<!--[if lte IE 8]> <script type="text/javascript" src="js/indexIE.js"></script> <![endif]-->
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

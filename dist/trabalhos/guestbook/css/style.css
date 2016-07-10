@@ -1,0 +1,16 @@
+* { border: 0; margin:0; padding:0; list-style:none; vertical-align:baseline; }
+body { background: url(../img/bg.jpg) 0 0 no-repeat; overflow: hidden; position: absolute; top: 0; width: 1024px; height: 768px; -webkit-user-select:none; -webkit-text-size-adjust:none; }
+#wrapper { width:100%; height: 504px; position: absolute; top: 157px; left: 0; overflow-y: hidden; }
+#scroller { width: auto; height: auto; position: absolute; left: 0; -webkit-transition:1s; }
+.column { float: left; overflow: hidden; width: 96px; height: auto; max-height: 504px; }
+.column div { width: 96px; height: 72px; float: left; }
+#lightbox { position: absolute; top:0; left: 0; z-index: 10; width: 100%; height: 100%; background: white; opacity: 0.85; }
+#lightbox-content { position: relative; margin: 0 auto; z-index: 11; max-width:640px; }
+#lightbox-content img, #lightbox-content video, #buttons { margin: 0 auto; display: block; }
+#lightbox-content p { font-family: times; font-size: 30px; text-align: center; color: #231f20; font-style: italic; line-height: 60px; }
+video { width: 640px; height: 480px; }
+#buttons { width: 850px; height: 400px; overflow: hidden; position: absolute; left: -110px; }
+.bts { width: 44px; height: 182px; background: url(../img/arrows.png) no-repeat; }
+.left { background-position: 0 0; }
+.right { background-position: -55px 0; }
+.close { position: absolute; /*bottom: -100px;*/ top: 585px; left: 45%; width: 61px; height: 61px; background: url(../img/close.png) 0 0 no-repeat; }

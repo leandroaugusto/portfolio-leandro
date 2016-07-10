@@ -1,0 +1,25 @@
+Prazer, Leandro. Formado em Design Digital pela Universidade Anhembi Morumbi e técnico em Design Gráfico pela ETEC Rocha Mendes. Comecei como estagiário na empresa Infservice e depois segui como estagiário até ser efetivado na agência Kindle.
+Apesar do grande envolvimento com a parte criativa do Design, decidi seguir para a área de desenvolvimento web. Fiz esta escolha pois estruturar HTML, definir estilos CSS e ver aquela aplicação em JS rodando, fazem com que eu tenha a sensação de um dia ganho!
+Basicamente, HTML e CSS foram as primeiras linhas escritas por mim ao decidir focar no front-end. Posteriormente veio o Jquery. Embora esse primeiro contato com o Javascript tenha vindo através do Jquery, tenho conhecimento de que esta é somente uma biblioteca, sendo necessário o aprendizado de JS puro.
+
+
+
+Tenho orgulho em trabalhar como front-end!
+Uma área que até pouco tempo atrás estava inserida entre o design e a programação. Design, aliás, foi o meu primeiro contato com o desenvolvimento web.
+Agora essa área está bem definida, caminhando para o seu reconhecimento e automação.
+Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos tempo e otimizemos nosso código. Busco sempre melhorar o carregamento das aplicações, tão importante hoje em dia, principalmente em mobile!
+
+
+
+Desenvolvedor front-end pleno, tenho 6 anos de experiência no mercado digital. Comecei na área trabalhando com criação, tendo meu primeiro contato com
+desenvolvimento web. Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos
+tempo e otimizemos nosso código. Me preocupo com o tempo de carregamento das aplicações, tão importante hoje em dia, principalmente em mobile.
+
+
+
+Tenho 6 anos de experiência no mercado digital. Sou formado em Design e já "leiautei" no início de carreira. Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos tempo e otimizemos nosso código. Me preocupo com o tempo de carregamento das aplicações, tão importante hoje em dia, principalmente em mobile.
+
+
+
+Com 6 anos trabalhando na área digital, 90% desse tempo foi atuando como front-end em agências digitais. Já atuei como único desenvolvedor da empresa assim como já integrei equipes com mais de 5 pessoas. Possuo conhecimento nas novas tecnologias que estão no mercado, como Node.JS, GulpJS, HTML5, CSS3, dentre outras.
+Com back-end, tive pouco contato. Porém tenho experiência em desenvolvimento da parte front-end para integração com os serviços de back. Já trabalhei com o lado back-end do Wordpress também.

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sala do piano</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- Interruptor -->
+		<div class="interruptor on">
+			<div></div>
+		</div>
+		<div class="interruptor off" style="display:none">
+			<div></div>
+		</div>
+		<!-- Piano -->
+		<div id="piano">
+			<div class="tampa"></div>
+			<div class="topo">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="teclado">
+				<div class="teclado-base">
+					<div data-audio="1" class="tecla"></div>
+					<div data-audio="2" class="tecla"></div>
+					<div data-audio="3" class="tecla"></div>
+					<div data-audio="4" class="tecla"></div>
+					<div data-audio="5" class="tecla"></div>
+					<div data-audio="6" class="tecla"></div>
+					<div data-audio="7" class="tecla"></div>
+					<div data-audio="8" class="tecla"></div>
+					<div data-audio="9" class="tecla"></div>
+					<div data-audio="10" class="tecla"></div>
+					<div data-audio="11" class="tecla"></div>
+					<div data-audio="12" class="tecla"></div>
+					<div data-audio="13" class="tecla"></div>
+					<div data-audio="14" class="tecla"></div>
+					<div data-audio="15" class="tecla"></div>
+					<div data-audio="16" class="tecla"></div>
+					<div data-audio="17" class="tecla"></div>
+					<div data-audio="18" class="tecla"></div>
+					<div data-audio="19" class="tecla"></div>
+					<div data-audio="20" class="tecla"></div>
+					<div data-audio="21" class="tecla"></div>
+					<div data-audio="22" class="tecla"></div>
+					<div data-audio="23" class="tecla"></div>
+					<div data-audio="24" class="tecla"></div>
+					<div data-audio="25" class="tecla"></div>
+					<div data-audio="26" class="tecla"></div>
+					<div data-audio="27" class="tecla"></div>
+					<div data-audio="28" class="tecla"></div>
+					<div data-audio="29" class="tecla"></div>
+					<div data-audio="30" class="tecla"></div>
+					<div data-audio="31" class="tecla"></div>
+					<div data-audio="32" class="tecla"></div>
+					<div data-audio="33" class="tecla"></div>
+					<div data-audio="34" class="tecla"></div>
+					<div data-audio="35" class="tecla"></div>
+					<div data-audio="36" class="tecla"></div>
+					<div data-audio="37" class="tecla"></div>
+					<div data-audio="38" class="tecla"></div>
+					<div data-audio="39" class="tecla"></div>
+					<div data-audio="40" class="tecla"></div>
+					<div data-audio="41" class="tecla"></div>
+					<div data-audio="42" class="tecla"></div>
+					<div data-audio="43" class="tecla"></div>
+					<div data-audio="44" class="tecla"></div>
+					<div data-audio="45" class="tecla"></div>
+					<div data-audio="46" class="tecla"></div>
+					<div data-audio="47" class="tecla"></div>
+					<div data-audio="48" class="tecla"></div>
+					<div data-audio="49" class="tecla"></div>
+					<div data-audio="50" class="tecla"></div>
+					<div data-audio="51" class="tecla"></div>
+					<div data-audio="52" class="tecla"></div>
+					<div data-audio="53" class="tecla"></div>
+					<div data-audio="54" class="tecla"></div>
+					<div data-audio="55" class="tecla"></div>
+					<div data-audio="56" class="tecla"></div>
+					<div data-audio="57" class="tecla"></div>
+					<div data-audio="58" class="tecla"></div>
+				</div>
+			</div>
+			<div class="pes">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<!-- Parede -->
+		<div id="parede">
+			<!-- Relogio -->
+			<div class="relogio">
+				<p class="doze">XII</p>
+				<p class="tres">III</p>
+				<p class="seis">VI</p>
+				<p class="nove">IX</p>
+				<div class="ponteiros hora"></div>
+				<div class="ponteiros minuto"></div>
+				<div class="base">
+					<div class="pendulo"><div></div></div>
+				</div>
+			</div>
+			<!-- Rodape -->
+			<div class="rodape"></div>
+		</div>
+		<!-- Chao -->
+		<div id="chao">
+			<div class="chao-perspectiva"></div>
+		</div>
+		<!-- Luz -->
+		<div id="luz">
+			<div class="fio"></div>
+			<div class="lustre"></div>
+			<div class="lampada"></div>
+			<div class="brilho" style="display:none"></div>
+		</div>
+	</div>
+	<!-- Audio -->
+		<audio src="audio/som-1.wav" data-audio="1"></audio>
+		<audio src="audio/som-30.wav" data-audio="30"></audio>
+		<audio src="audio/som-40.wav" data-audio="40"></audio>
+		<audio src="audio/som-58.wav" data-audio="58"></audio>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

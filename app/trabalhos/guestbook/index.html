@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+	<title>Guestbook</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- Imagens fixas -->
+		<!-- Aqui devem ser colocadas as imagens de thumb seguindo a ordem: Foto, Video e Texto. Se não existir uma, vai para a próxima. Respeitando isso, deve-se preencher os atributos de cada imagem, sendo:
+		data-folder = numero da pasta da imagem;
+		data-video = valor "y" se existe video na pasta / valor "" se não existe na pasta;
+		data-draw = valor "y" se existe desenho na pasta / valor "" se não existe na pasta;
+		data-txt = valor "y" se existe mensagem de texto na pasta / valor "" se não existe na pasta;
+		data-media = mesmo prefixo do thumbnail: video ou drawingMessage ou picCapture ou textMessage. -->
+			<div style="display:none">
+				<div class="post open">
+					<img data-folder="1" data-video="y" data-draw="" data-txt="y" data-media="video" src="users/1/video_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="2" data-video="y" data-draw="" data-txt="" data-media="video" src="users/2/video_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="3" data-video="" data-draw="" data-txt="y" data-media="picCapture" src="users/3/picCapture_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="4" data-video="y" data-draw="" data-txt="" data-media="video" src="users/4/video_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="5" data-video="y" data-draw="" data-txt="" data-media="video" src="users/5/video_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="6" data-video="" data-draw="" data-txt="" data-media="picCapture" src="users/6/picCapture_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="7" data-video="" data-draw="" data-txt="" data-media="picCapture" src="users/7/picCapture_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="8" data-video="" data-draw="" data-txt="y" data-media="picCapture" src="users/8/picCapture_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="9" data-video="" data-draw="" data-txt="y" data-media="textMessage" src="users/9/textMessage_smallThumb.png">
+				</div>
+				<div class="post open">
+					<img data-folder="10" data-video="" data-draw="" data-txt="" data-media="picCapture" src="users/10/picCapture_smallThumb.png">
+				</div>
+			</div>
+		
+		<!-- Div onde será montado o grid -->
+			<div id="scroller">
+				<div class="column">
+					<div class="post fixa">
+						<img src="img/mosaic_cell_1.png">
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<!-- Lightbox -->
+	<div id="lightbox" style="display:none"></div>
+	<div id="lightbox-content" style="display:none">
+		<p>Mensagem de <span class="name"></span></p>
+		<div id="buttons">
+			<div style="float:left" class="bts left"></div>
+			<div style="float:right" class="bts right"></div>
+		</div>
+		<img class="medias" src="" width="640">
+		<video id="video" class="medias" controls src=""></video>
+		<span class="close"></span>
+	</div>
+
+	<!-- Script -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/loadxmldoc.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

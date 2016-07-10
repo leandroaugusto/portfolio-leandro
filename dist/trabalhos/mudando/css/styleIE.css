@@ -1,0 +1,67 @@
+/* Classes universais */
+	body {
+		font-family: Verdana;
+		font-weight: normal;
+		font-style: normal;
+	}
+
+/* Conteudo Geral */
+	#wrapper-campanha {
+		background: #fafafa !important;
+	}
+	#wrapper-campanha.gradient { filter: none; }
+
+/* Etapas */
+	.etapas {
+		background: url(../img/ie/circleIE.png) center center no-repeat transparent;
+		width: 395px !important;
+		height: 395px !important;
+		margin-top: -160px !important;
+		margin-left: -197px !important;
+	}
+
+/* Etapa 3 - corrida */
+	.key-exp {
+		background: url(../img/ie/teclado.png) 0 0 no-repeat !important;
+	}
+
+/* Etapa 4 - tipos de diabetes */
+	.pessoas.cheio {
+		width: 0px;
+	}
+	.etapas[data-step='11'] p {
+		width: 315px !important;
+	}
+
+/* Restart */
+	.diferente-b {
+		left: 46px !important;
+		width: 328px !important;
+	}
+	#menino-final {
+		left: 6px !important;
+	}
+
+/* Canvas */
+	#circle {
+		background: url(../img/ie/border.png) 0 0 no-repeat;
+		width: 551px !important;
+		height: 554px !important;
+		margin-left: -275px !important;
+	}
+	#menino.garoto {
+		background-position: 0px 0px;
+	}
+	#canvasIE {
+		position: absolute;
+		width: 551px;
+		height: 554px;
+	}
+	#canvasIE img {
+		position: absolute;
+	}
+
+/* Luzes etapas */
+	ul {
+		margin-top: -275px !important;
+	}

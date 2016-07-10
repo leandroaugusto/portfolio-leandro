@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quiz>
+	<questions>
+		<image src=""></image>
+		<question>O que é o Clavulin® ES?</question>
+		<answer check="0">a) Clavulin® ES é um antibiótico de amplo espectro, composto por 800mg de amoxicilina e 42,9mg de ácido clavulânico.</answer>
+		<answer check="0">b) Clavulin® ES é um antibiótico de amplo espectro, composto por 400mg de amoxicilina e 57mg de ácido clavulânico.</answer>
+		<answer check="1">c) Clavulin® ES é um antibiótico de amplo espectro, composto por 600mg de amoxicilina e 42,9mg de ácido clavulânico.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O que significa a sigla ES?</question>
+		<answer check="0">a) ES significa Especial.</answer>
+		<answer check="1">b) ES significa Extra Strength, ou seja, Força Extra.</answer>
+		<answer check="0">c) ES significa Efeito Superior.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES é indicado para crianças a partir de qual idade?</question>
+		<answer check="1">a) A partir de 3 meses de idade.</answer>
+		<answer check="0">b) A partir de 6 meses de idade.</answer>
+		<answer check="0">c) A partir de 18 meses de idade.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES pode ser trocado na farmácia por outras apresentações de amoxicilina com clavulanato?</question>
+		<answer check="0">a) Clavulin® ES possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato, por isso pode ser trocado por qualquer outra suspensão de amoxicilina com clavulanato.</answer>
+		<answer check="1">b) Clavulin® ES não possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato. Portanto, Clavulin® ES não deve ser substituído por outras suspensões orais de amoxicilina com clavulanato, por não serem intercambiáveis.</answer>
+		<answer check="0">c) Clavulin® ES não possui a mesma quantidade de ácido clavulânico (na forma de sal de potássio) que as demais suspensões de amoxicilina/clavulanato. Apesar dessa diferença, Clavulin® ES pode ser trocado por qualquer outra suspensão de amoxicilina com clavulanato.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O que é dose dobrada?</question>
+		<answer check="1">a) A dose dobrada é o dobro da dose padrão recomendada de amoxicilina (45 mg/kg/dia), ou seja, 90 mg/kg/dia.</answer>
+		<answer check="0">b) A dose dobrada é o dobro da dose padrão recomendada de amoxicilina (25 mg/kg/dia), ou seja, 50 mg/kg/dia.</answer>
+		<answer check="0">c) Por conta do Clavulin BD ter concentração de 400mg de amoxicilina, o Clavulin ES tem dose dobrada devido à sua concentração de 800mg.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O paciente pode apresentar mais eventos adversos quando comparado ao Clavulin® BD devido à dose ponderal dobrada?</question>
+		<answer check="1">a) Em estudo comparativo dos eventos adversos causados por Clavulin® ES e Clavulin® BD,  os resultados mostraram que não houve aumento da incidência de diarreia.</answer>
+		<answer check="0">b) Em estudo comparativo dos eventos adversos causados por Clavulin® ES e Clavulin® BD,  os resultados mostraram que não houve aumento da incidência de qualquer evento adverso.</answer>
+		<answer check="0">c) Em estudo comparativo dos eventos adversos causados por Clavulin® ES e Clavulin® BD,  os resultados mostraram que houve aumento da incidência de diarreia e vômito.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é a posologia de Clavulin® ES?</question>
+		<answer check="1">a) Dose ponderal de 90/6,4 mg/kg/dia </answer>
+		<answer check="0">b) Dose ponderal de 45/6,4 mg/kg/dia</answer>
+		<answer check="0">c) Dose ponderal de 25/6,4 mg/kg/dia</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é o sabor de Clavulin® ES?</question>
+		<answer check="1">a) Sabor morango. </answer>
+		<answer check="0">b) Sabor laranja.</answer>
+		<answer check="0">c) Sabor tutti-fruti.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES possui corantes em sua formulação?</question>
+		<answer check="1">a) Clavulin® ES não contém corante. </answer>
+		<answer check="0">b) Clavulin® ES contém corante vermelho 40.</answer>
+		<answer check="0">c) Clavulin® ES contém corante, porém natural.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual o período de estabilidade do Clavulin® ES?</question>
+		<answer check="0">a) 7 dias, assim como o Clavulin® BD.</answer>
+		<answer check="1">b) Diferente do Clavulin® BD, Clavulin® ES tem estabilidade comprovada de 10 dias.</answer>
+		<answer check="0">c) Diferente do Clavulin® BD, Clavulin® ES tem estabilidade comprovada de 14 dias.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Para quais casos os consensos indicam a utilização de dose dobrada de amoxicilina?</question>
+		<answer check="0">a) Os principais guidelines recomendam o uso de dose dobrada de amoxicilina no tratamento da Otite Média Aguda  recorrente ou no tratamento de qualquer infecção respiratória causada por cepas resistentes de pneumococos.</answer>
+		<answer check="0">b) Os principais guidelines recomendam o uso de dose dobrada de amoxicilina no tratamento da Otite Média Aguda ou no tratamento de qualquer infecção respiratória causada por cepas resistentes de pneumococos.</answer>
+		<answer check="1">c) Os principais guidelines recomendam o uso de dose dobrada de amoxicilina no tratamento da Otite Média Aguda recorrente.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES teve alteração de preço em 2014?</question>
+		<answer check="0">a) Não, o produto continua com o mesmo preço.</answer>
+		<answer check="1">b) Sim, Clavulin® ES teve uma redução de 55% no preço máximo ao consumidor da apresentação de 100mL.</answer>
+		<answer check="0">c) Sim, Clavulin® ES teve uma redução de 55% no preço máximo ao consumidor de ambas apresentações.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual o principal perfil de paciente para o qual Clavulin® ES é indicado?</question>
+		<answer check="0">a) Crianças que frequentam creche e receberam tratamento com antibióticos nos últimos 12 meses.</answer>
+		<answer check="1">b) Crianças que frequentam creche, não responderam a tratamento recente e receberam tratamento com antibióticos nos últimos 3 meses.</answer>
+		<answer check="0">c) Crianças que não responderam a tratamento recente e receberam tratamento com antibióticos nos últimos 12 meses.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é a diferença de espectro de ação do Clavulin® ES quando comparado ao BD?</question>
+		<answer check="1">a) Clavulin® ES tem como foco a ação sobre cepas resistentes responsáveis por infecções recorrentes ou persistentes, cepas estas que não são erradicadas pelas outras apresentações, como o S. pneumoniae.</answer>
+		<answer check="0">b) Clavulin® ES tem como foco a ação sobre cepas resistentes responsáveis por infecções recorrentes ou persistentes, cepas estas que não são erradicadas pelas outras apresentações, como a Moraxella catarrhalis, por exemplo.</answer>
+		<answer check="0">c) Clavulin® ES tem como foco a ação sobre cepas responsáveis por infecções do trato respiratório, trato urinário ou infecções de pele, diferente do Clavulin BD.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Existem similares e genéricos do Clavulin® ES no mercado?</question>
+		<answer check="1">a) Não, Clavulin® ES é a única suspensão oral com 600mg de amoxicilina e 42,9mg de ácido clavulânico disponível no mercado.</answer>
+		<answer check="0">b) Existem apenas genéricos com as mesmas características de Clavulin® ES.</answer>
+		<answer check="0">c) Existem genéricos e similares com as mesmas características de Clavulin® ES.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-16.jpg"></image>
+		<question>Quais as apresentações disponíveis de Clavulin® ES?</question>
+		<answer check="0">a) Clavulin® ES está disponível como suspensão oral, em frascos de 50 ou 100mL e em embalagens com 14 ou 20 comprimidos.</answer>
+		<answer check="0">b) Clavulin® ES está disponível somente como suspensão oral, em frasco de 100mL.</answer>
+		<answer check="1">c) Clavulin® ES está disponível somente como suspensão oral, em frascos de 50 ou 100mL.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-17.jpg"></image>
+		<question>Complete com as informações que faltam, conforme a ajuda visual.</question>
+		<answer check="1">a) Não respondeu a tratamento recente / Frequenta creche / Recebeu tratamento com antibióticos nos últimos meses.</answer>
+		<answer check="0">b) Não respondeu a tratamento recente / Tem idade para frequentar creche / Recebeu tratamento com antibióticos nos últimos meses.</answer>
+		<answer check="0">c) Não respondeu a tratamento recente / Frequenta creche / Recebeu tratamento com antibióticos nos últimos 18 meses.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-18.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Frequenta creche.</answer>
+		<answer check="0">b) Tem idade para frequentar creche.</answer>
+		<answer check="0">c) Pode frequentar creche.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-19.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Não respondeu a tratamento recente.</answer>
+		<answer check="0">b) Não respondeu satisfatoriamente a tratamento recente.</answer>
+		<answer check="0">c) Respondeu a tratamento recente.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-20.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Recebeu tratamento com antibióticos nos últimos meses.</answer>
+		<answer check="0">b) Não recebeu tratamento com antibióticos nos últimos meses.</answer>
+		<answer check="0">c) Recebeu tratamento com antibióticos nos últimos 18 meses.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-21.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) S. Pneumoniae.</answer>
+		<answer check="0">b) M. Catarrhalis.</answer>
+		<answer check="0">c) Pneumococos.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-22.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) H. Influenzae.</answer>
+		<answer check="0">b) M. Catarrhalis.</answer>
+		<answer check="0">c) Pneumococos.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-23.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Desconto de 55%.</answer>
+		<answer check="0">b) Desconto de 65%.</answer>
+		<answer check="0">c) Desconto de 50%.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-24.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) R$69,80.</answer>
+		<answer check="0">b) R$75,00.</answer>
+		<answer check="0">c) R$100,25.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-25.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Dose usual – 45mg/kg/dia.</answer>
+		<answer check="0">b) Dose usual – 40mg/kg/dia.</answer>
+		<answer check="0">c) Dose usual – 55mg/kg/dia.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-26.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Dose dobrada – 90mg/kg/dia.</answer>
+		<answer check="0">b) Dose dobrada – 80mg/kg/dia.</answer>
+		<answer check="0">c) Dose dobrada – 100mg/kg/dia.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-27.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Estável por 10 dias.</answer>
+		<answer check="0">b) Estável por 7 dias.</answer>
+		<answer check="0">c) Estável por 14 dias.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-28.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="0">a) Clavulin® ES 600mg x 500mL.</answer>
+		<answer check="1">b) Clavulin® ES 600mg x 100mL.</answer>
+		<answer check="0">c) Clavulin® ES 400mg x 100mL.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-29.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="1">a) Pneumococos resistentes.</answer>
+		<answer check="0">b) Bactérias produtoras de beta lactamase.</answer>
+		<answer check="0">c) Contra qualquer infecção respiratória.</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-30.jpg"></image>
+		<question>Complete com a informação que falta, conforme a ajuda visual.</question>
+		<answer check="0">a) Pneumococos resistentes.</answer>
+		<answer check="1">b) S. Pneumoniae com resistência intermediária à penicilina.</answer>
+		<answer check="0">c) S. Pneumoniae com resistência à penicilina.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES contém uma seringa dosadora em sua embalagem.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES está disponível como suspensão oral e comprimidos.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>A estabilidade de Clavulin® ES é de 10 dias.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>A Academia Americana de Pediatria recomenda o uso de dose dobrada de amoxicilina para o tratamento de otite média aguda.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>A Academia Americana de Médicos de Família recomenda o uso de dose dobrada de amoxicilina para o tratamento de otite média aguda persistente ou recorrente.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é o genérico de Clavulin® ES mais vendido no mercado?</question>
+		<answer check="0">a) genérico da EMS</answer>
+		<answer check="0">b) genérico da Ranbaxy</answer>
+		<answer check="1">c) Nenhuma alternativa está correta.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual(is) a(s) apresentação(ões) de Clavulin® ES que reduziu(ram) de preço?</question>
+		<answer check="1">a) Ambas apresentações.</answer>
+		<answer check="0">b) Clavulin® ES 600mg x 50 mL.</answer>
+		<answer check="0">c) Clavulin® ES 600mg x 100mL.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual o preço máximo ao consumidor da apresentação de 100mL de Clavulin® ES?</question>
+		<answer check="1">a) R$ 69,80</answer>
+		<answer check="0">b) R$ 98,60</answer>
+		<answer check="0">c) R$ 55,00</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-39.jpg"></image>
+		<question>De acordo com o gráfico da ajuda visual, quais são os antibióticos que apresentam a menor eficácia na erradicação do S. pneumoniae resistente à penicilina?</question>
+		<answer check="0">a) amoxicilina + clavulanato / cefaclor</answer>
+		<answer check="0">b) ceftriaxona / azitromicina</answer>
+		<answer check="1">c) cefaclor / azitromicina</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-40.jpg"></image>
+		<question>De acordo com o gráfico da ajuda visual, quais são os antibióticos que apresentam a maior eficácia na erradicação do S. pneumoniae resistente à penicilina?</question>
+		<answer check="0">a) Axetil cefuroxima / ceftriaxona</answer>
+		<answer check="1">b) Alta dose de amoxicilina + clavulanato / amoxicilina com ou sem clavulanato</answer>
+		<answer check="0">c) cefaclor / azitromocina</answer>
+	</questions>
+
+	<questions>
+		<image src="upload/explanation-41.jpg"></image>
+		<question>De acordo com o gráfico da ajuda visual, qual é o antibiótico que apresenta a menor eficácia na erradicação do S. pneumoniae resistente à penicilina?</question>
+		<answer check="0">a) Amoxicilina</answer>
+		<answer check="1">b) Azitromicina</answer>
+		<answer check="0">c) cefaclor</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é o mecanismo de resistência do S. pneumoniae?</question>
+		<answer check="0">a) Produção da enzima beta lactamase.</answer>
+		<answer check="1">b) Diminuição da afinidade das PBPs (proteínas que se ligam à penicilina) da parede celular.</answer>
+		<answer check="0">c) Alterações da bomba de efluxo.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é o mecanismo de resistência do H. influenzae?</question>
+		<answer check="1">a) Produção da enzima beta lactamase.</answer>
+		<answer check="0">b) Diminuição da afinidade das PBPs (proteínas que se ligam à penicilina) da parede celular.</answer>
+		<answer check="0">c) Alterações da bomba de efluxo .</answer>
+	</questions>>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual é o mecanismo de resistência da M. catharralis?</question>
+		<answer check="1">a) Produção da enzima beta lactamase.</answer>
+		<answer check="0">b) Diminuição da afinidade das PBPs (proteínas que se ligam à penicilina) da parede celular.</answer>
+		<answer check="0">c) Alterações da bomba de efluxo .</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>De acordo com o SIREVA II – 2012, a faixa etária que apresenta resistência intermediária mais elevada ao Streptococcus pneumoniae  é:</question>
+		<answer check="1">a) De 12 a 23 meses de idade.</answer>
+		<answer check="0">b) De 5 a 10 anos de idade.</answer>
+		<answer check="0">c) De 2 a 12 meses de idade.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>De acordo com o SIREVA II – 2012, qual a faixa etária mais suscetível às infecções causadas por Streptococcus pneumoniae  (otite média, por exemplo)?</question>
+		<answer check="1">a) De 12 a 23 meses de idade.</answer>
+		<answer check="0">b) De 5 a 10 anos de idade.</answer>
+		<answer check="0">c) De 2 a 12 meses de idade.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES após reconstituído ficará estável por _______ dias e deve ser conservado em ______.</question>
+		<answer check="0">a) 7 dias / geladeira</answer>
+		<answer check="1">b) 10 dias / geladeira</answer>
+		<answer check="0">c) 10 dias / temperatura ambiente</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Para minimizar o risco de intolerância gastrointestinal com Clavulin® ES é recomendado:</question>
+		<answer check="0">a) Administrar o medicamento 30 minutos após as refeições.</answer>
+		<answer check="0">b) Administrar o medicamento em jejum.</answer>
+		<answer check="1">c) Administrar o medicamento no início das refeições.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Para que cepas com resistência intermediária à penicilina de S. pneumoniae sejam erradicadas, é preciso:</question>
+		<answer check="1">a) Aumentar o tempo do antibiótico acima da MIC, e para isso altas doses de amoxicilina são necessárias.</answer>
+		<answer check="0">b) Aumentar o tempo do antibiótico acima da MIC, e para isso altas doses de amoxicilina e clavulanato são necessárias.</answer>
+		<answer check="0">c) Aumentar o tempo do pico plasmático acima da MIC, e para isso altas doses de amoxicilina são necessárias.</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Quando comparamos a formulação de Clavulin® ES com Clavulin® BD, podemos afirmar que:</question>
+		<answer check="1">a) Clavulin® ES (14:1) possui maior concentração de amoxicilina e a mesma proporção de clavulanato que Clavulin® BD (7:1).</answer>
+		<answer check="0">b) Clavulin® ES (7:1) possui menor concentração de amoxicilina e maior proporção de clavulanato que Clavulin® BD (14:1).</answer>
+		<answer check="0">c) Clavulin® ES (14:1) possui maior concentração de amoxicilina e a menor proporção de clavulanato que Clavulin® BD (7:1).</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Um paciente com otite média aguda recorrente fez um antibiograma e verificou que a infecção estava sendo causada por H. influenzae e pneumococo. Qual seria a melhor estratégia de tratamento para esta pessoa?</question>
+		<answer check="0">a) Amoxil® BD</answer>
+		<answer check="0">b) Clavulin® BD</answer>
+		<answer check="1">c) Clavulin® ES</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual o benefício para o paciente de Clavulin® ES manter a mesma proporção de clavulanato que a de Clavulin® BD?</question>
+		<answer check="0">a) Aumentar a eficácia no tratamento das infecções causadas por pneumococo com resistência intermediária</answer>
+		<answer check="0">b) Aumentar a adesão do pequeno paciente ao tratamento</answer>
+		<answer check="1">c) Manter o perfil de tolerabilidade do tratamento </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Qual a vantagem para o paciente de Clavulin® ES comparada a de Clavulin® BD ?</question>
+		<answer check="1">a) Aumentar a eficácia no tratamento das infecções causadas por pneumococo com resistência intermediária à penicilina.</answer>
+		<answer check="0">b) Aumentar a adesão do pequeno paciente ao tratamento</answer>
+		<answer check="0">c) Manter o perfil de tolerabilidade do tratamento  </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Dentre as alternativas de antimicrobianos, qual permaneceu como um dos antibióticos orais mais efetivos, sendo o único capaz de alcançar concentrações efetivas contra cepas de pneumococos com resistência intermediária à penicilina?</question>
+		<answer check="0">a) cefalosporinas de terceira geração.</answer>
+		<answer check="0">b) cefalosporinas de segunda geração</answer>
+		<answer check="1">c) amoxicilina</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES é um antibiótico de amplo espectro, composto por ____ de amoxicilina e 62,5 mg de ácido clavulânico.</question>
+		<answer check="0">a) 800 mg</answer>
+		<answer check="0">b) 875 mg</answer>
+		<answer check="1">c) 600 mg</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES é indicado para crianças a partir de 6 meses.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES não pode ser substituído pelo farmacêutico.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>No Clavulin® ES a concentração de amoxicilina é -----------  do que as demais suspensões de amoxicilina/clavulanato do mercado. </question>
+		<answer check="1">a) Maior</answer>
+		<answer check="0">b) Menor</answer>
+		<answer check="0">c) Igual</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>No Clavulin® ES a concentração de clavulanato é -----------  do que as demais suspensões de amoxicilina/clavulanato do mercado. </question>
+		<answer check="0">a) Maior</answer>
+		<answer check="1">b) Menor</answer>
+		<answer check="0">c) Igual</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Os resultados do estudo de eventos adversos mostraram que houve diminuição da incidência de diarréia no grupo que utilizou Clavulin® ES.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES possui açúcar em sua formulação.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES possui corante em sua formulação.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O tratamento com Clavulin® ES pode ultrapassar 10 dias.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Para manter-se estável por 14 dias, Clavulin® ES deve ser mantido em geladeira.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Para manter-se estável por 10 dias, Clavulin® ES deve ser mantido em geladeira.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES deve ser administrado em 3 tomadas diárias.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES deve ser administrado em 2 tomadas diárias.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES contém aspartame.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O ácido clavulânico possui a capacidade de inativar uma substância chamada betalactamase.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O preço máximo ao consumidor da apresentação de 100mL de Clavulin® ES em 2013 era superior a R$150.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>A axetil cefuroxima é mais eficaz do que a alta dose de amoxicilina + clavulanato na erradicação do S. pneumoniae resistente a penicilina.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES pode ser substituído pelo farmacêutico.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES contém 42,9 mg de ácido clavulânico por 5 mL.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES contém 42,9 mg de ácido clavulânico por 5 mL, o que corresponde à mesma quantidade de ácido clavulânico que as demais suspensões de amoxicilina/clavulanato.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO</answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O intervalo mínimo entre a administração de cada dose de Clavulin® ES deve ser de 4 horas.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Tanto o pó quanto a suspensão oral de Clavulin® ES apresentam, imediatamente após a reconstituição, uma coloração esbranquiçada.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES é indicado para quando a prescrição for dose dobrada de amoxicilina e mesma dose de clavulanato (em relação à dose padrão de Clavulin® BD).</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES tem um espectro de ação menor que Clavulin® BD pois não atua contra bactérias produtoras de betalactamase.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Crianças que frequentam creche estão mais suscetíveis a apresentar quadro de otite média aguda recorrente.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O preço máximo ao consumidor da apresentação de 100 mL de Clavulin® ES teve uma redução de preço de 75%.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES contém como substâncias ativas a amoxicilina e o ácido clavulânico.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>O ácido clavulânico possui a capacidade de inativar uma substância chamada betalactamase, que é produzida por alguns tipos de bactérias e provoca resistência ao tratamento com antibióticos da família das penicilinas.</question>
+		<answer check="1">a) VERDADEIRO</answer>
+		<answer check="0">b) FALSO </answer>
+	</questions>
+
+	<questions>
+		<image src=""></image>
+		<question>Clavulin® ES tem sabor de laranja.</question>
+		<answer check="0">a) VERDADEIRO</answer>
+		<answer check="1">b) FALSO </answer>
+	</questions>
+</quiz>
