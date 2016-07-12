@@ -16,6 +16,9 @@ $(document).ready(function() {
 
 		var isiPad = navigator.userAgent.toLowerCase().indexOf("ipad");
 
+		var mobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
+		console.log(mobile);
+
 	// Canvas do bg
 		ctd.beginPath();
 		ctd.arc(280, 272, 234, 1.50*Math.PI, 3.6*Math.PI, false);
