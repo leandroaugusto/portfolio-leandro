@@ -14,10 +14,7 @@ $(document).ready(function() {
 		var corrida = 2.2;
 		var intervalo;
 
-		var isiPad = navigator.userAgent.toLowerCase().indexOf("ipad");
-
-		var mobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
-		console.log(mobile);
+		var isMobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 
 	// Canvas do bg
 		ctd.beginPath();
@@ -65,7 +62,7 @@ $(document).ready(function() {
 
 	// Ação dos pés no ipad
 		function pes() {
-			if(isiPad > -1) {
+			if(isMobile > -1) {
 				$('.feets').fadeIn(500);
 				$('.feets div').on('touchstart', function() {
 					$('#menino').addClass('garoto');
@@ -284,7 +281,7 @@ $(document).ready(function() {
 
 				if ( currentStep == 7 ) {
 					$('p.fonte-4').fadeOut(500);
-					if(isiPad > -1) {
+					if(isMobile > -1) {
 						$('.key-exp, .pc').hide();
 						$('.tablet, .feet-exp').fadeIn(500);
 					}
