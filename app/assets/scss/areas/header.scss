@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    text-align: center;
+    max-height: 81px;
+
+    #logo {
+        width: 11%;
+        background-color: white;
+        &:before {
+            @include prefix(transform, skewX(-20deg));
+            background-color: #222b34;
+            box-shadow: 10px 22px 0px #4E79A5;
+            content: "logo";
+            width: 25px;
+            height: 70px;
+            margin-left: -14px;
+            color: rgba(0,0,0,0);
+            float: left;
+        }
+        a {
+            height: 54px;
+            @include prefix(transition, all .2s linear);
+            text-indent: -9999px;
+            width: 166px;
+            display: block;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+            &:hover {
+                @include prefix(transform, translate(2px,-2px));
+                opacity: .8;
+            }
+        }
+    }
+
+    #menu {
+        float: right;
+        padding: 23px 0;
+        margin-right: -22px;
+        position: relative;
+        z-index: 0;
+        max-height: 40px;
+        background-color: #222b34;
+        box-shadow: 10px 12px 0px #4e79a5;
+        @include prefix(transform, skewX(-20deg));
+        
+        #menu-mobile {
+            width: 40px;
+            height: 40px;
+            background-position: -157px -164px;
+            float: right;
+            cursor: pointer;
+            @include prefix(transform, skewX(20deg));
+            &.active, &:hover {
+                background-position: -157px -202px;
+            }
+        }
+
+        ul {
+            @include prefix(transform, skewX(20deg));
+
+            a {
+                text-transform: uppercase;
+                color: #4e79a5;
+                font-size: 1.8em;
+                margin-right: 5%;
+                @include prefix(transition, color .2s linear);
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}

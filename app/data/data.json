@@ -1,0 +1,527 @@
+{
+	"header": [
+		{
+			"area": "sobre",
+			"link": "about"
+		},
+		{
+			"area": "projetos",
+			"link": "jobs"
+		},
+		{
+			"area": "contato",
+			"link": "contact"
+		}
+	],
+	"about": {
+		"title": "Sobre",
+		"paragraphs": [
+			{
+				"item": "Desenvolvedor front-end pleno, tenho 6 anos de experiência no mercado digital."
+			},
+			{
+				"item": "Comecei na área trabalhando com criação, tendo meu primeiro contato com desenvolvimento web."
+			},
+			{
+				"item": "Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos tempo e otimizemos nosso código."
+			},
+			{
+				"item": "Busco sempre melhorar a performance - tempo de carregamento das aplicações - tão importante hoje em dia, principalmente em mobile."
+			}
+		],
+		"curriculum": {
+			"link": "http://www.linkedin.com/in/leandroaugustocosta",
+			"name": "currículo"
+		},
+		"skills": {
+			"title": "conhecimentos",
+			"items": [
+				{
+					"group": [
+						{
+							"name": "HTML5",
+							"slug": "html"
+						},
+						{
+							"name": "CSS3",
+							"slug": "css"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Sass",
+							"slug": "sass"
+						},
+						{
+							"name": "Javascript",
+							"slug": "javascript"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Node",
+							"slug": "node"
+						},
+						{
+							"name": "Gulp",
+							"slug": "gulp"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Angular",
+							"slug": "angular"
+						},
+						{
+							"name": "React",
+							"slug": "react"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Bootstrap",
+							"slug": "bootstrap"
+						},
+						{
+							"name": "Wordpress",
+							"slug": "wordpress"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Jquery",
+							"slug": "jquery"
+						},
+						{
+							"name": "GIT",
+							"slug": "git"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "Sublime",
+							"slug": "sublime"
+						},
+						{
+							"name": "Photoshop",
+							"slug": "photoshop"
+						}
+					]
+				},
+				{
+					"group": [
+						{
+							"name": "OSX",
+							"slug": "osx"
+						},
+						{
+							"name": "Windows",
+							"slug": "windows"
+						}
+					]
+				}
+			]
+		}
+	},
+	"jobs": {
+		"title": "Projetos",
+		"projects": {
+			"wall": [
+				{
+					"title": "Novo Nordisk - Mudando Diabetes"
+				},
+				{
+					"title": "Site Karga Fácil"
+				},
+				{
+					"title": "Delta tecnologias"
+				},
+				{
+					"title": "MAC informática"
+				},
+				{
+					"title": "Quiz interativo"
+				},
+				{
+					"title": "Guestbook digital"
+				},
+				{
+					"title": "Sala do piano - CSS"
+				},
+				{
+					"title": "Publicidade Weeding guide"
+				},
+				{
+					"title": "Site TFLog"
+				}
+			],
+			"inner": [
+				{
+					"flag": "job-novo",
+					"img": "job-novo.jpg",
+					"title": "Novo Nordisk - Mudando o Diabetes",
+					"link": "/trabalhos/mudando/",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Novo Nordisk"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Campanha para o Dia Mundial do Diabetes"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Infográfico animado e interativo cross-&nbsp;browser, com dicas para uma vida mais saudável em relação a prevenção do diabetes."
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Canvas<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-pf",
+					"img": "job-karga-facil.jpg",
+					"title": "Site Karga Fácil",
+					"link": "http://kargafacil.com.br",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Karga Fácil"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Site Institucional"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desenvolvimento do front-end do site"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery"
+						},
+						{
+							"subtitle": "Créditos:"
+						},
+						{
+							"paragraph": "Agência Lions Create"
+						}
+					]
+				},
+				{
+					"flag": "job-delta",
+					"img": "job-delta.jpg",
+					"title": "Delta tecnologias",
+					"link": "/trabalhos/delta",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Delta Tecnologias"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Site da empresa"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desenvolvimento do front-&nbsp;end do projeto"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-mac",
+					"img": "job-mac.jpg",
+					"title": "MAC informática",
+					"link": "http://macinformatica.net/",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "MAC informática"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Site promocional"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desenvolvimento do site promocional da empresa"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML4<br>- CSS2<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-quiz",
+					"img": "job-quiz.jpg",
+					"title": "Quiz - GSK",
+					"link": "/trabalhos/quiz-gsk",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "GSK"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Quiz - Clavulin<sup>®</sup>&nbsp;ES"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desencolvimento de um quiz interativo, disponibilizado em um evento privado, no qual o intuito era responder às perguntas e pedalar uma bicicleta em seguida."
+						},
+						{
+							"subtitle": "Plataforma:"
+						},
+						{
+							"paragraph": "Ipad"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery<br>- Ajax"
+						},
+						{
+							"subtitle": "Créditos:"
+						},
+						{
+							"paragraph": "Agência Gr8!"
+						}
+					]
+				},
+				{
+					"flag": "job-gd",
+					"img": "job-guestbook.jpg",
+					"title": "Guestbook digital",
+					"link": "/trabalhos/guestbook",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Greatmoments"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Guestbook digital"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desenvolvimento de um guestbook digital para ipad, no qual as pessoas podem deixar mensagens comemorativas em festas."
+						},
+						{
+							"subtitle": "Plataforma:"
+						},
+						{
+							"paragraph": "Ipad"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-piano",
+					"img": "job-piano.jpg",
+					"title": "Sala do piano",
+					"link": "/trabalhos/piano",
+					"details": [
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Sala do piano"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Projeto fantasma, inspirado no <b><a href=\"http://html5-pro.com/old-radio/\" target=\"_blank\" style=\"color:#4e79a5\">old radio</a></b>, no qual decidi reproduzir uma sala sem o uso de imagens. Apenas css!"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-wg",
+					"img": "job-pp-wg.jpg",
+					"title": "Publicidade Weeding guide",
+					"link": "/trabalhos/weeding-guide",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Greatmoments"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Publicidade Weeding guide"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Publicidade para revista digital Weeding guide."
+						},
+						{
+							"subtitle": "Plataforma:"
+						},
+						{
+							"paragraph": "Ipad"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery"
+						}
+					]
+				},
+				{
+					"flag": "job-tcc",
+					"img": "job-tflog.jpg",
+					"title": "Rápida TFLog - Transportadora",
+					"link": "http://www.rapidatflog.com.br/index.php",
+					"details": [
+						{
+							"subtitle": "Cliente:"
+						},
+						{
+							"paragraph": "Rápida TFLog"
+						},
+						{
+							"subtitle": "Projeto:"
+						},
+						{
+							"paragraph": "Site Institucional"
+						},
+						{
+							"subtitle": "Descrição:"
+						},
+						{
+							"paragraph": "Desenvolvimento do front-end do site"
+						},
+						{
+							"subtitle": "Tecnologias:"
+						},
+						{
+							"paragraph": "- HTML5<br>- CSS3<br>- Jquery<br>- PHP"
+						},
+						{
+							"subtitle": "Créditos:"
+						},
+						{
+							"paragraph": "Agência Lions Create"
+						}
+					]
+				}
+			]
+		}
+	},
+	"contact": {
+		"title": "Contato",
+		"info": [
+			{
+				"item": "email",
+				"data": "leandroacosta2008@gmail.com"
+			},
+			{
+				"item": "skype",
+				"data": "legusto22"
+			},
+			{
+				"item": "telefone",
+				"data": "(11) 96566 4487"
+			},
+			{
+				"item": "local",
+				"data": "Vila Mariana - São Paulo"
+			}
+		],
+		"social": [
+			{
+				"name": "github",
+				"link": "http://github.com/leandroaugusto"
+			},
+			{
+				"name": "linkedin",
+				"link": "http://www.linkedin.com/in/leandroaugustocosta"
+			},
+			{
+				"name": "facebook",
+				"link": "https://www.facebook.com/legusto.costa"
+			}
+		]
+	}
+}

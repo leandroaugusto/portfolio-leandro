@@ -21,21 +21,16 @@ window.onload = function(e) {
 
 $(document).ready(function() {
 	// MENU ÂNCORA
-	$(function() {
-		$('a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				if (target.length) {
-					$('html,body').animate({
-					scrollTop: target.offset().top
-					}, 2000);
-					return false;
-				}
-			}
-		});
+	$('.menu-links').on('click', function(e){
+		e.preventDefault();
+
+		var target = $(this).attr('href');
+
+		$('html, body').animate({
+			scrollTop: $(target).offset().top
+		},800)
 	});
-	
+
 	// SCROLL
 	$(window).scroll(function() {
 		var windscroll = $(document).scrollTop();

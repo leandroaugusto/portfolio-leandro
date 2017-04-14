@@ -4,6 +4,12 @@ logs
 *.log
 npm-debug.log*
 
+# BOWER
+app/assets/js/components/
+
+# GENERATED FILES
+dist/
+
 # OSX
 Thumbs.db
 .Trashes

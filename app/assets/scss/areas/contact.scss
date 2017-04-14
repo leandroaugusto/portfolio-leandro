@@ -1,0 +1,56 @@
+label {
+    text-indent: -9999px;
+    display: block;
+    font-size: .1em;
+}
+input[type="email"], input[type="text"], textarea {
+    width: 97.6%;
+    border: 1px solid #222b34;
+    margin-bottom: 12px;
+    padding-left: 2%;
+    font-size: 2em;
+}
+input[type="email"], input[type="text"] {
+    height: 40px;
+}
+textarea {
+    height: 140px;
+    resize: vertical;
+}
+input[type="submit"] {
+    float: right;
+}
+#more-contacts {
+    font-size: 2em;
+    font-weight: 800;
+    font-style: normal;
+}
+#more-contacts span {
+    font-weight: normal;
+    display: block;
+}
+#github, #linkedin, #facebook {
+    float: left;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    margin-right: 4px;
+}
+#github {
+    background-position: -99px -58px;
+}
+#github:hover {
+    background-position: -99px -89px;
+}
+#linkedin {
+    background-position: -162px -58px;
+}
+#linkedin:hover {
+    background-position: -162px -89px;
+}
+#facebook {
+    background-position: -131px -58px;
+}
+#facebook:hover {
+    background-position: -131px -89px;
+}

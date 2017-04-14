@@ -6,11 +6,14 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	jshint = require('gulp-jshint'),
 	uglify = require('gulp-uglify'),
+	flatten = require('gulp-flatten'),
 	imagemin = require('gulp-imagemin'),
 	runSequence = require('run-sequence'),
 	minifyCSS = require('gulp-minify-css'),
 	sourcemaps = require('gulp-sourcemaps'),
-	browserSync = require('browser-sync').create();
+	mainBowerFiles = require('main-bower-files'),
+	browserSync = require('browser-sync').create(),
+	gulpHandlebars = require('gulp-compile-handlebars');
 
 // Bases
 var bases = {
@@ -20,10 +23,13 @@ var bases = {
 
 // Paths
 var paths = {
-	styles: [bases.app+'assets/scss/**/*.scss'],
-	scripts: [bases.app+'assets/js/**/*.js'],
+	styles: [bases.app+'assets/scss/*.scss'],
+	scripts: [bases.app+'assets/js/*.js', '!'+bases.app+'assets/js/components/'],
 	images: [bases.app+'assets/img/**/*.{gif,jpg,png,jpeg}']
 }
+
+// Path Json
+var dataObj = require('./'+bases.app+'data/data.json');
 
 // JS Lint
 gulp.task('lint', function() {
@@ -46,8 +52,28 @@ gulp.task('browserSync', function() {
 	})
 });
 
+// Handlebars
+gulp.task('handlebars', function() {
+	var options = {
+		helpers: {
+			inc: function(value, options){
+				return parseInt(value) + 1;
+			}
+		}
+	}
+	return gulp.src(bases.app+'*.html')
+		.pipe(gulpHandlebars(dataObj, options))
+		.pipe(gulp.dest(bases.dist))
+		.pipe(browserSync.reload({
+			stream: true
+		}));
+});
+
 // Task Copy folders
-gulp.task('copyFoldersFiles', function(){
+gulp.task('copyAssets', function(){
+	// Fonts files
+	gulp.src(bases.app+'assets/font/**/*')
+		.pipe(gulp.dest(bases.dist+'assets/font'))
 	// Jobs folder
 	gulp.src(bases.app+'trabalhos/**')
 	.pipe(gulp.dest(bases.dist+'trabalhos/'));
@@ -59,19 +85,11 @@ gulp.task('copyFoldersFiles', function(){
 		.pipe(gulp.dest(bases.dist));
 });
 
-// Gulp html
-gulp.task('html', function(){
-	return gulp.src(bases.app+'*.html')
-		.pipe(gulp.dest(bases.dist))
-		.pipe(browserSync.reload({
-			stream: true
-		}));
-});
-
-// Copy Fonts
-gulp.task('fonts', function() {
-	return gulp.src(bases.app+'assets/font/**/*')
-		.pipe(gulp.dest(bases.dist+'assets/font'))
+// Components
+gulp.task('components', function() {
+	return gulp.src(mainBowerFiles(), {base: bases.app+'assets/js/components'})
+		.pipe(flatten({includeParents:[1,2]}))
+		.pipe(gulp.dest(bases.dist+'assets/js/components'));
 });
 
 // Task Styles
@@ -110,7 +128,7 @@ gulp.task('images', function() {
  
 // Rerun the task when a file changes
 gulp.task('watch', ['browserSync'], function() {
-	gulp.watch(bases.app+'*.html', ['html']);
+	gulp.watch(bases.app+'*.html', ['handlebars']);
 	gulp.watch(paths.styles, ['styles']);
 	gulp.watch(paths.images, ['images']);
 	gulp.watch(paths.scripts, ['scripts'], function(){
@@ -121,5 +139,5 @@ gulp.task('watch', ['browserSync'], function() {
 // Default Task
 gulp.task('default', function(callback) {
 	runSequence('clean',
-	['watch', 'copyFoldersFiles', 'html', 'fonts', 'styles', 'scripts', 'images'], callback)
+	['watch', 'handlebars', 'copyAssets', 'components', 'styles', 'scripts', 'images'], callback)
 });

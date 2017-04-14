@@ -17,9 +17,9 @@ tempo e otimizemos nosso código. Me preocupo com o tempo de carregamento das ap
 
 
 
-Tenho 6 anos de experiência no mercado digital. Sou formado em Design e já "leiautei" no início de carreira. Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos tempo e otimizemos nosso código. Me preocupo com o tempo de carregamento das aplicações, tão importante hoje em dia, principalmente em mobile.
+Tenho 6 anos de experiência no mercado digital. Sou formado em Design, já fiz layouts no início de carreira, porém descobri paixão pelo Front-end. Gosto muito de utilizar novas tecnologias que agilizam e automatizam o processo de trabalho do desenvolvedor, fazendo com que ganhemos tempo e otimizemos nosso código. Me preocupo com o tempo de carregamento das aplicações, tão importante hoje em dia, principalmente em mobile.
 
 
 
-Com 6 anos trabalhando na área digital, 90% desse tempo foi atuando como front-end em agências digitais. Já atuei como único desenvolvedor da empresa assim como já integrei equipes com mais de 5 pessoas. Possuo conhecimento nas novas tecnologias que estão no mercado, como Node.JS, GulpJS, HTML5, CSS3, dentre outras.
+Com 6 anos de trabalho na área digital, 90% desse tempo foi atuando como front-end em agências digitais. Já atuei como único desenvolvedor da empresa assim como já integrei equipes com mais de 5 pessoas. Possuo conhecimento nas novas tecnologias que estão no mercado, como Node.JS, GulpJS, HTML5, CSS3, dentre outras.
 Com back-end, tive pouco contato. Porém tenho experiência em desenvolvimento da parte front-end para integração com os serviços de back. Já trabalhei com o lado back-end do Wordpress também.
